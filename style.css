@@ -1,0 +1,193 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* General classes    */
+.a_secondnav{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(31,32,65,0.5);
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px 5px;
+    cursor: pointer;
+    
+}
+
+.li_padding{
+    padding-top: 10%;
+}
+
+
+.a_secondnav_uppercase{
+
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: black;
+}
+ 
+/* The end of general classes  */
+
+
+/* Nav styling start */
+.nav-bar{
+    width: 1440px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    
+}
+
+
+li,a,button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+.logos{
+    margin-right: auto;
+}
+.logo{
+    cursor: pointer;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+.nav__links{
+    position: absolute;
+    list-style: none;
+    margin-top: 0.6rem;
+    left: 26.5rem;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0rem 0.7rem;
+   
+    
+
+}
+
+.nav__links li a{
+text-decoration: none;
+color: rgba(31, 32, 65, 0.5);
+transition: ease 0.2s;
+
+}
+
+.nav__links li a:hover{
+    color: rgba(31, 32, 65,1);
+
+}
+
+
+.nav__buttons{
+    padding: 9px 15px;  
+    cursor: pointer;
+}
+
+.nav__button1{
+    color: #BC9CFF;
+    border-radius: 22px;
+    border-color: #BC9CFF;
+    transition: ease 0.2s;
+}
+.nav__button2{
+    transition: ease 0.2s;
+}
+
+.nav__button1:hover{
+   background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+   color: white;
+   border-color: white;
+}
+.nav__button2:hover{
+    background: white;
+    color: #BC9CFF;
+}
+
+
+.nav__button2{
+    color: white;
+    border-radius: 22px;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+
+}
+/* Nav styling end */
+
+
+/* background start */
+.main_container1{
+    width: 1440px;
+    height: 1022px;
+    background: url(/images/image\ 3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -61px;
+   
+}
+/* background end  */
+
+
+/* First form 1 start */
+
+.form_1{
+    position: absolute;
+    width: 380px;
+    height: 374px;
+    left: 140px;
+    top : 140px;
+    background: #ffffff;
+    border : 1px solid rgba(0, 0,0, 0,12);
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+}
+
+.form_1 h1{
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #1F2041;
+    position: absolute;
+    left: 30px;
+    top: 40px;
+}
+/* First form 1 end */
+
+/* Main container nav styling start */
+.main_container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 3rem 2rem;
+    width: 1440px;
+    height: 372px;
+    
+}
+
+.main__container__logo{
+    
+}
+
+/* Main container nav styling end */
